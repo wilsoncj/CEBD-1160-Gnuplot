@@ -112,7 +112,7 @@ set cbtics  norangelimit autofreq
 set rtics axis in scale 1,0.5 nomirror norotate  autojustify
 set rtics  norangelimit autofreq 
 unset ttics
-set title "Histogram Black Mulch Color Strength" 
+set title "Histogram Black Mulch Color Strength"                # instructions to set graph label
 set title  font "" norotate
 set timestamp bottom 
 set timestamp "" 
@@ -120,13 +120,13 @@ set timestamp  font "" norotate
 set trange [ * : * ] noreverse nowriteback
 set urange [ * : * ] noreverse nowriteback
 set vrange [ * : * ] noreverse nowriteback
-set xlabel "Tint Strength" 
+set xlabel "Tint Strength"                                     # instructions to set x label
 set xlabel  font "" textcolor lt -1 norotate
 set x2label "" 
 set x2label  font "" textcolor lt -1 norotate
 set xrange [ * : * ] noreverse nowriteback
 set x2range [ * : * ] noreverse nowriteback
-set ylabel "Count" 
+set ylabel "Count"                                             # instructions to set y label
 set ylabel  font "" textcolor lt -1 rotate
 set y2label "" 
 set y2label  font "" textcolor lt -1 rotate
